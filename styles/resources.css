@@ -9,13 +9,34 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Header height & width alignment */
+.header{
+    max-width: 1920px;
+    height: 1322px;
+    margin: 0 auto;
+    
+}
 /* Shared Styles */
+.btn-primary{
+    font-weight: 400;
+    font-size: 1.20rem;
+    text-align: center;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+}
 .dark-2{
     color: #424242;
+}
+.dark-3{
+    color: #727272;
 }
 .bg-color{
     background-color: rgba(255, 144, 14, 0.1);
 }
+
 /* Navbar part styles */
 
 .navbar{
@@ -26,7 +47,7 @@
 }
 .brand{
     font-weight: bold;
-    font-size: 45px;
+    font-size: 2.90rem;
 }
 .nav-links{
     display: flex;
@@ -39,5 +60,34 @@
 .nav-link{
     text-decoration: none;
     font-weight: 477;
+    
+}
+
+/* navbar & image same alignment styles */
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner part styles */
+
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-weight: 200;
+    font-size: 0.95rem;
+    margin-bottom: 32px;
+}
+.banner-image{
+    max-width: 100%;
     
 }
