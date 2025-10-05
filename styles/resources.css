@@ -12,7 +12,7 @@
 /* Header height & width alignment */
 .header{
     max-width: 1920px;
-    height: 1322px;
+    height: 1000px;
     margin: 0 auto;
     
 }
@@ -47,7 +47,7 @@
 }
 .brand{
     font-weight: bold;
-    font-size: 2.90rem;
+    font-size: 3rem;
 }
 .nav-links{
     display: flex;
@@ -59,7 +59,7 @@
 }
 .nav-link{
     text-decoration: none;
-    font-weight: 477;
+    font-weight: 500;
     
 }
 
@@ -78,7 +78,7 @@
 
 }
 .banner-title{
-    font-weight: bold;
+    font-weight: 600;
     font-size: 4rem;
     margin-bottom: 20px;
 }
@@ -89,5 +89,18 @@
 }
 .banner-image{
     max-width: 100%;
+    
+}
+
+
+
+/* Responsive media query for Mobile Devices */
+
+@media screen and (max-width:576px) {
+
+     .navbar, .nav-links
+     {
+        flex-direction: column;
+     }
     
 }
