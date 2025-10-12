@@ -12,7 +12,7 @@
 /* Header height & width alignment */
 .header{
     max-width: 1920px;
-    height: 1000px;
+    height: 1322px;
     margin: 0 auto;
     
 }
@@ -35,6 +35,15 @@
 }
 .bg-color{
     background-color: rgba(255, 144, 14, 0.1);
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
 }
 
 /* Navbar part styles */
@@ -90,6 +99,55 @@
 .banner-image{
     max-width: 100%;
     
+}
+
+
+/* Our feature Section Styles */
+
+.teams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+}
+
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-feature{
+    max-width: 535px;
+}
+
+
+.feature-title{
+    max-width: 465px;
+}
+.part1{
+    font-weight: 500;
+    font-size: 2.8rem;
+    color: #727272;
+}
+.part2{
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: #131313;
+}
+.part3{
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: #FF900E;
+}
+
+.feature-description{
+    max-width: 535px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+    margin-bottom: 30px;
 }
 
 
