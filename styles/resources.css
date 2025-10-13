@@ -150,7 +150,64 @@ main > section{
     margin-bottom: 30px;
 }
 
+/* Features you will love & enjoy section styles */
+.Features-enjoy{
+    display: flex;
+    gap: 130px;
+}
+.feature-title{
+    max-width: 470px;
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+#feature-sideborder{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+#experience-badge{
+    padding: 45px 42px;
+    margin-left: -85px;
+    margin-top: -120px;
 
+}
+#feature-year{
+    font-weight: 800;
+    font-size: 4rem;
+}
+#feature-experience{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.feature-description{
+    max-width: 580px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+    margin-bottom: 40px;
+}
+
+.feature-card{
+    max-width: 580px;
+    padding: 30px 42px 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-card-title{
+    max-width: 250px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.feature-card-description{
+    max-width: 510px;
+    font-weight: 400px;
+    font-size: 1rem;
+    color: #727272;
+}
 
 /* Some Facts section styles */
 
