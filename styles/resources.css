@@ -283,6 +283,26 @@ main > section{
 }
 
 
+/* Footer Section Styles */
+.footer-part{
+    max-width: 1440px;
+    height: 100px;
+    margin: 130px auto;
+    background-color: rgba(255, 244, 231, 1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-description{
+    max-width: 700px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #424242;
+}
+
+
 
 /* Responsive media query for Mobile Devices */
 
@@ -317,6 +337,9 @@ main > section{
         justify-items: center;
          margin-top: 20px;
          margin-left: 20px;
+     }
+     .footer-description{
+       padding: 20px;
      }
     
 }
