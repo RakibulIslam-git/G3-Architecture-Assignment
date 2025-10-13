@@ -250,6 +250,9 @@ main > section{
     font-size: 1.2rem;
     margin-top: 5px;
 }
+.architect-image img{
+    max-width: 100%;
+}
 
 /* Our Sponsor Section Styles */
 
@@ -287,7 +290,8 @@ main > section{
 
      .navbar, 
      .nav-links,
-     .teams
+     .teams,
+     .Features-enjoy
      {
         flex-direction: column;
      }
@@ -309,6 +313,11 @@ main > section{
         justify-items: center;
         gap: 50px;
      }
+     #experience-badge{
+        justify-items: center;
+         margin-top: 20px;
+         margin-left: 20px;
+     }
     
 }
 
@@ -316,7 +325,9 @@ main > section{
 
 @media screen and (min-width:576px) and (max-width:992px) {
 
-    .teams{
+    .teams,
+    .Features-enjoy
+    {
         flex-direction: column;
     }
 
@@ -329,5 +340,10 @@ main > section{
         justify-items: center;
         gap: 24px;
     }
+    #experience-badge{
+        
+         margin-top: 20px;
+         margin-left: 20px;
+     }
     
 }
