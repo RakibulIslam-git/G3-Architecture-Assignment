@@ -218,7 +218,7 @@ main > section{
     grid-template-columns: repeat(5, 1fr);
 
 }
-.sponsor-companies, img{
+.sponsor-companies img{
     filter: grayscale(100%);
 }
 
